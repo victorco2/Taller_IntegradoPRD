@@ -43,7 +43,6 @@
             this.CboSeccion = new System.Windows.Forms.ComboBox();
             this.CboCurso = new System.Windows.Forms.ComboBox();
             this.CboSemestre2 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListado)).BeginInit();
             this.SuspendLayout();
@@ -86,7 +85,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.DgvListado);
             this.groupBox1.Controls.Add(this.btnGuardar);
             this.groupBox1.Controls.Add(this.BtnCalcular);
@@ -206,15 +204,6 @@
             this.CboSemestre2.TabIndex = 5;
             this.CboSemestre2.SelectedIndexChanged += new System.EventHandler(this.CboSemestre2_SelectedIndexChanged);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(195, 139);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "label5";
-            // 
             // FrmCalificacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,6 +238,5 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.DataGridView DgvListado;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
-        private System.Windows.Forms.Label label5;
     }
 }
