@@ -43,6 +43,7 @@
             this.CboSeccion = new System.Windows.Forms.ComboBox();
             this.CboCurso = new System.Windows.Forms.ComboBox();
             this.CboSemestre2 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListado)).BeginInit();
             this.SuspendLayout();
@@ -85,6 +86,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.DgvListado);
             this.groupBox1.Controls.Add(this.btnGuardar);
             this.groupBox1.Controls.Add(this.BtnCalcular);
@@ -204,6 +206,15 @@
             this.CboSemestre2.TabIndex = 5;
             this.CboSemestre2.SelectedIndexChanged += new System.EventHandler(this.CboSemestre2_SelectedIndexChanged);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(224, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FrmCalificacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -238,5 +249,6 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.DataGridView DgvListado;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
+        private System.Windows.Forms.Button button1;
     }
 }
